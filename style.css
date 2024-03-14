@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+    background: hsl(27, 66%, 92%);
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.container {
+    background-color: hsl(10, 79%, 65%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    border-radius: 15px;
+    width: 26.5rem;
+    overflow: auto;
+}
+.balance p{
+    color: white;
+    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+}
+.balance-content{
+    display: flex;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+.balance-content span{
+    color: white;
+    font-size: 2rem;
+}
+.balance-content span{
+    margin-right: 150px;
+}
+.balance-content img{
+    margin-top: -15%;
+}
+/****** chart ******/
+.container-1{
+    background-color: white;
+    border-radius: 15px;
+    width: 30rem;
+    height: auto;
+}
+.container-1 p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    color: black;
+    font-size: 2rem;
+    padding: 15px;
+}
+.container-2 {
+    border-radius: 15px;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 15px;
+    margin-top: -18%;
+}
+.chart {
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 58vh;
+    margin-right: 5px;
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 35px;
+    margin-top: -5%;
+}
+.days h3{
+    font-size: 0.8rem;
+    color: hsl(28, 10%, 53%);
+}
+hr{
+    position: relative;
+    border: none;
+    border-top: 1px solid hsl(28, 10%, 53%);
+    width: 90%;
+}
+.total-month{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10%;
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    align-items: flex-start;
+}
+.price-text p,
+.percentage-month p {
+    margin: -15px;
+    font-family: "DM Sans", sans-serif;
+}
+.price-text span{
+    font-family: "DM Sans", sans-serif;
+    color: hsl(28, 10%, 53%);
+    text-align: left;
+    align-items: flex-start;
+}
+.price-text p{
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-size: 3rem;
+}
+.percentage-month{
+    text-align: right;
+    margin-top: 35px;
+}
+.percentage-month p{
+    font-size: 1rem;
+    color: hsl(28, 10%, 53%);
+}
+.percentage-month span{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
